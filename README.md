@@ -1,4 +1,4 @@
 # rwPolarSync
-Export Data (gpx, tcx, activities) from Polar Flow with official polaraccesslink-API
+Export Data (gpx, tcx, activities) from Polar Flow with official Polar Accesslink API
 
 ... comming soon ...
