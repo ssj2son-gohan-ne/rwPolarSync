@@ -38,10 +38,10 @@ if args.version:
 
 # Polar Settings
 APIURL = "https://www.polaraccesslink.com"
-CLIENTID = args.clientid if args.clientid else raw_input('Polar Accesslink API Client id: ')
-CLIENTSECRET = args.clientsecret if args.clientsecret else raw_input('Polar Accesslink API Client Secret')
-ACCESSTOKEN = args.accesstoken if args.accesstoken else raw_input('Polar Accesslink API ACCESSTOKEN')
-USERID = args.userid if args.userid else raw_input('Polar Accesslink API User id')
+CLIENTID = args.clientid if args.clientid else input('Polar Accesslink API Client id: ')
+CLIENTSECRET = args.clientsecret if args.clientsecret else input('Polar Accesslink API Client Secret')
+ACCESSTOKEN = args.accesstoken if args.accesstoken else input('Polar Accesslink API ACCESSTOKEN')
+USERID = args.userid if args.userid else input('Polar Accesslink API User id')
 
 def jdump(dict):
     print(json.dumps(dict, indent=4))
